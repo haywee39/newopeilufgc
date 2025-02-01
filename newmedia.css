@@ -1,0 +1,475 @@
+@media (width < 768px) {
+    
+  .carousel-inner{
+    height: 150%;
+    width: 100%;  
+  }
+  
+.free-gift{
+    font-size: 8px;
+}
+/* ******************************* */
+#home{
+  display: flex;
+  justify-content: center;
+}
+
+.card-content{
+  margin-top: 10vh;
+  padding-top: 0;
+  width: 90vw;
+  height: 70vh;
+  /* background-color:blueviolet ; */
+}
+
+#typewriter{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 45px;
+  /* letter-spacing: 0; */
+  white-space: wrap;
+  width: 95vw;
+  height: 40vh;
+  /* background-color: yellowgreen; */
+}
+
+#typewrite{
+  width: 85vw;
+  height: 35vh;
+  /* background-color: brown; */
+}
+/* ********************************** */
+  .hebrews{
+    font-size: 20px;
+  }
+  .js_date{
+    font-size: 18px;
+  }
+  
+  
+  
+#play-vid{
+    display: block;
+    background-color: grey;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.motion-vid{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 300px;   
+}
+
+.motion{
+  position: relative;
+  width: 70%;
+  height: 80%;
+}
+
+  /*START THE THEME FOR THE YEAR  */
+  #themes{
+    display: block;
+    background-color: grey;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+.theme-year{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 300px;   
+}
+
+.theme-year img{
+  position: relative;
+  width: 80%;
+  height: 100%;
+}
+.theme-month{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 300px;
+}
+.theme-month img{
+  position: relative;
+  width: 80%;
+  height: 100%;
+}
+
+/* END THE THEME FOR THE YEAR */
+
+/* MEDIA BEGINS FROM HERE */
+#media{
+  width: 100vw;
+  /* height: 200vh; */
+  height: auto;
+}
+#overalldrop{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+}
+#pastor-desk{
+  width: 100%;
+   height: auto;
+}
+#pastor-desk h1,h3{
+  font-weight: bold;
+}
+#pastor-desk img{
+    width: 80px;
+    height: 80px;
+    border-radius: 60px;
+    margin-left:.5rem;
+    shape-outside:circle();
+    float: left;
+    margin-right:1.5rem;
+}
+#pastor-desk .msg{
+  font-size: 13px;
+}
+
+#live-stream{
+  width: 100%;
+  height: auto;
+}
+#live-stream h1{
+  font-size: 20px;
+}
+#live-stream p{
+  font-size: 10px;
+}
+#live-stream .btn{
+  width: 230px;
+  height: 40px;
+  font-size: 12px;
+}
+
+#weekActs{
+    padding-top: 10%;
+    width: 100%;
+    height: auto;
+}
+
+#weekActs h1{ 
+    font-size: 20px;
+}
+
+#weekActs h3{
+    font-size: 15px;
+}
+#weekActs h5{
+    font-size: 12px;
+   
+}
+#weekActs p{
+    font-size:12px;
+    font-weight: bolder;
+    text-align: center;
+}
+
+
+  #gallery {
+    height: auto; /* Adjust height to fit smaller viewport */
+    width: 100vw;
+    padding-top: 60px; 
+    
+  }
+
+  .gallery-container {
+    flex-direction: row; /* Switch back to horizontal layout */
+    flex-wrap: wrap; /* Allow images to wrap onto multiple rows */
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+  }
+
+  .gallery-item {
+    width: 150px; 
+    height: 150px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .gallery-item img {
+    height: 140px;
+    width: 140px; 
+  }
+
+  .lightbox img {
+    max-width: 85%; /* Slightly reduce image size in lightbox */
+  }
+
+
+/* TESTIMONY SECTION BEGINS HERE  */
+#testimony{
+  height: 80vh;
+  width: 100vw;
+  display: flex;
+}
+
+.testy-cover{
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.thumbnail{
+  width: 90%;
+  height: 40%;
+}
+.heady{
+  width: 90%;
+  height: 40%;
+}
+
+.thumbnail img{
+  width: 100%;
+  height: 100%;
+}
+.heady img{
+  width: 100%;
+  height: 100%;
+}
+
+
+
+/* LOCATION AND MAP  */
+#contact-us{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+.contact-msg{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    text-align: center;
+
+}
+.contact-msg p{
+  font-size: 13px;
+}
+.Location-WriteUs{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 90%;
+    }
+    
+    .map iframe{
+        width: 100%;
+        height: 130px;
+        margin-bottom: 20px;
+    }
+
+    .lets_talk{
+        display: grid;
+        justify-content: center;
+        width: 90%;
+        height: 65vh;
+        margin-left: 45px;
+       
+    }
+   
+    form input{
+        display: flex;
+        flex-direction: column;
+        margin-top: 10px;
+        width: 300px;
+        height: 30px;
+        border-radius: 3px;
+        border: none;
+        font-size: 10px;
+        padding-left: 15px;
+     
+    }
+    
+    textarea{
+        width: 300px;
+        height: 30vh;
+        border-radius: 3px;
+        font-size: 12px;
+        padding-left: 5px;
+    }
+    
+    
+    .submit{
+        display: flex;
+        align-items: center;
+        width: 300px;
+        height: 30px;
+        font-size: 12px;
+    }
+
+
+
+
+/* FOOTER2 BEGINS HERE  */
+footer{
+  display: none;
+}
+.footer2{
+  visibility: visible;
+  display: grid;
+  width: 100%;
+  height: 70vh;
+  background-color: #454545;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 12px;
+}
+.quick-links2 a{
+  text-decoration: none;
+  color: white;
+}
+
+.follow-us2 a{
+  text-decoration: none;
+  color: white;
+}
+
+.address2 a{
+  text-decoration: none;
+  color: white;
+}
+.copyright2 a{
+  text-decoration: none;
+  color: white;
+}
+
+.tag2{
+  text-shadow:5px 5px 3px black;
+  animation:sayo 2s ease 1s infinite;  
+}
+
+@keyframes sayo{
+
+  0%{
+     transform:rotateX(-45deg);
+ }
+  50%{
+     transform:rotateY(45deg);
+ }
+}
+
+
+}
+
+
+/* START HERE MEDIA QUERY FOR THE ABOUT PAGE */
+@media (width < 768px) {
+
+  #big-box{
+      width:100%;
+      height: auto;
+      color: white;
+      /* background-image: url('./images/churchbuilding.jpg');
+      background-size: contain;
+      background-position:center center;
+      background-repeat: repeat;
+       */
+  }
+  .opeilu{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center; 
+    text-align: center; 
+    width: 100%; 
+}
+
+  .opeilu img{
+      height: 55px;
+      width: 55px;
+  }
+
+  .opeilu h1{
+      font-size: 22px;
+  }
+  .opeilu p{
+      font-size: 14px;
+      text-align: center;
+      text-shadow: red 1px 1px 1px;
+      letter-spacing: 1px;
+  }   
+  .aboutUs{
+      width: 90%;
+  }
+
+  .aboutUs h1{
+      font-size: 22px;
+      letter-spacing: 2px;
+      text-shadow: red 3px -3px 3px;       
+  }
+
+  .aboutUs h2{
+      font-size: 18px;
+      letter-spacing: 2px;
+  }
+  .aboutUs p{
+      font-size: 13px;
+      line-height: 20px;
+  }
+
+  .img-fold img{
+      width: 25px;
+      height: 25px;
+
+  }
+
+  .tenets-heading{
+      padding-top: 5px;
+      font-size: 21px;
+      text-shadow: red 2px -2px 2px;
+      width:100%;
+      height: 13vh;        
+  }
+
+  .accordion-flush{
+      width: 80vw;
+      margin-left: 10%;
+  }
+
+  .accordion-body{
+     font-size: 13px;        
+  }
+
+  .accordion-button.collapsed{
+      font-size: 17px;
+      font-weight: bold;
+  }
+ 
+.free-gift{
+  margin-left: 160px;
+}
+footer .top{
+  visibility: visible;
+}
+}
+
+
