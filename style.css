@@ -24,16 +24,14 @@ nav{
     align-items: center;
     text-align: center;
     width: 100vw;
-    height: 15vh;
-}
-
- .navbar{
-    /* background: #454545 !important; */
+    height: 25vh;
+    color: white;
     background: black !important;
 }
 
+
 .navbar-brand img{
-    /* background: white !important; */
+    background: white !important;
     width: 45px;
     height: 45px;
     margin-left: 50px;
