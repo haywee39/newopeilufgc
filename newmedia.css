@@ -15,23 +15,27 @@
   }
   /* ************************************************************* */
   .card-content{
-    /* padding-top: 20vh; */
-    /* font-family: fantasy; */
     width: 90vw;
-    height: 75vh; 
+    height: 68vh;
+    /* background-color: orange;  */
+}
+
+.upcoming-events{
+  margin-bottom: 20vh;
+  
 }
     /* ****************************************************************************************** */
   
 #typewriter {
   white-space: wrap;
-  height: 30vh;
+  height: 35vh;
   width: 90vw;
   color: white;
    /* background-color: red;   */
 }
 #text{
   width: 100%;
-  font-size: 40px;
+  font-size: 50px;
 }
 /* ***************************************** */
 #typewrite {
@@ -44,7 +48,7 @@
 
 #desc{
   width: 100%;
-  font-size: 40px;
+  font-size: 30px;
   /* background-color: blue; */
 
 }
