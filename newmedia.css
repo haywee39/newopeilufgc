@@ -395,6 +395,9 @@
 /* FOOTER2 BEGINS HERE  */
 footer{
   display: none;
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
 }
 .footer2{
   visibility: visible;
@@ -408,10 +411,17 @@ footer{
   padding: 10px 0;
   /* font-size: 12px; */
 }
-.quick-links2 a{
+/* .quick-links2 a{
   text-decoration: none;
   color: white;
+} */
+ 
+.follow-us2{
+  display: flex;
+  flex-direction: column;
 }
+
+
 
 .follow-us2 a{
   text-decoration: none;
