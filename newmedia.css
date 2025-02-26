@@ -16,7 +16,7 @@
   /* ************************************************************* */
   .card-content{
     width: 90vw;
-    height: 68vh;
+    height: auto;
     /* background-color: orange;  */
 }
 
@@ -28,7 +28,7 @@
   
 #typewriter {
   white-space: wrap;
-  height: 35vh;
+  height: auto;
   width: 90vw;
   color: white;
    /* background-color: red;   */
@@ -36,10 +36,12 @@
 #text{
   width: 100%;
   font-size: 50px;
+  
 }
 /* ***************************************** */
 #typewrite {
-  margin-top: 0;
+  margin: 20px;
+  display: flex;
   height: 18vh;
   width: 90vw;
   color: white;
@@ -50,13 +52,10 @@
   width: 100%;
   font-size: 30px;
   /* background-color: blue; */
-
 }
 
 /* &********************************************* */
 #typewr {
-  margin-top: 0;
-  height: 15vh;
   width: 90vw;
   color: white;
   /* background-color: orange; */
@@ -77,63 +76,102 @@
   
   
 #play-vid{
-    display: flex;
-    flex-direction: column;
-    /* background-color: grey; */
-    width: 100%;
-    height: auto;
-    align-items: center;
+    display: block;
+    width: 100vw;
+   /* display: flex; */
     justify-content: center;
+    height: auto;
+    background-color: grey; 
+    margin-bottom: 15px;
 }
 
-.motion-vid{
+.vid-left, .vid-ryt{
   display:flex;
   align-items: center;
   justify-content: center;
-  width: 100%;
-  height: 300px;   
+  width: 50%;
+  height: 300px;  
+  background-color: orange; 
 }
 
 .motion{
   position: relative;
-  width: 70%;
-  height: 80%;
+  width: 100%;
+  height: 100%;
+}
+/* ****************************************** */
+/*  ABOUT  */
+.AboutUs{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: auto;
+}
+.us1{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%; 
+  height: auto;
+  padding: 10px 10px;
+  margin-top: 20px;
+  /* background-color: #454545;  */
 }
 
+.us2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 50%; 
+  height: auto;
+  padding: 0 10px;
+  margin-top: 20px;
+  /* background-color: #454545;  */
+}
+.four-fold{
+  padding: 15px;
+  width: 100%;
+  height: auto;
+  display: block;
+  justify-content: center;
+}
+/* *********************************************** */
   /*START THE THEME FOR THE YEAR  */
   #themes{
     display: block;
-    background-color: grey;
-    width: 100%;
-    height: 100%;
+    height: auto;
     align-items: center;
     justify-content: center;
+    width: 100vw;
+    
 }
-.theme-year{
+.theme-month, .theme-year{
   display:flex;
   align-items: center;
   justify-content: center;
   width: 100%;
-  height: 300px;   
+  height: 300px;  
+  margin-bottom: 10px; 
 }
 
-.theme-year img{
+.theme-month img, .theme-year img{
   position: relative;
   width: 80%;
   height: 100%;
 }
-.theme-month{
+/* .theme-month{
   display:flex;
   align-items: center;
   justify-content: center;
   width: 100%;
   height: 300px;
-}
-.theme-month img{
+} */
+/* .theme-month img{
   position: relative;
   width: 80%;
   height: 100%;
-}
+} */
 
 /* END THE THEME FOR THE YEAR */
 
@@ -206,11 +244,10 @@
 }
 #weekActs p{
     font-size:12px;
-    font-weight: bolder;
     text-align: center;
 }
 
-
+/* ************************************ */
   #gallery {
     height: auto; /* Adjust height to fit smaller viewport */
     width: 100vw;
@@ -246,33 +283,27 @@
 
 /* TESTIMONY SECTION BEGINS HERE  */
 #testimony{
-  height: 80vh;
+  height: auto;
   width: 100vw;
   display: flex;
 }
 
 .testy-cover{
-  height: 80vh;
+  height: auto;
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
 }
-.thumbnail{
+.testy1, .testy2{
   width: 90%;
   height: 40%;
-}
-.heady{
-  width: 90%;
-  height: 40%;
+  margin: 10px 0;
+  background-color: red;
 }
 
-.thumbnail img{
-  width: 100%;
-  height: 100%;
-}
-.heady img{
+.testy1 img, .testy2 img{
   width: 100%;
   height: 100%;
 }
@@ -284,64 +315,69 @@
         align-items: center;
         display: flex;
         flex-direction: column;
-        width: 100%;
+        justify-content: center;
+        width: 100vw;
         height: auto;
     }
 .contact-msg{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
+    padding: 10px;
+    width: 90%;
     height: auto;
-    align-items: center;
-    text-align: center;
+    /* background-color: red; */
 
 }
 .contact-msg p{
   font-size: 13px;
 }
+/* &********************************* */
 .Location-WriteUs{
-        align-items: center;
         display: flex;
         flex-direction: column;
-        width: 100%;
-        height: 90%;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+        height: auto;
+        margin-right: 0;
+        /* background-color: palegreen; */
     }
     
     .map iframe{
-        width: 100%;
-        height: 130px;
+        width: 90vw;
+        height: 150px;
         margin-bottom: 20px;
+        padding-left: 0;
+        /* background-color: blue; */
     }
 
     .lets_talk{
-        display: grid;
+        display: flex;
         justify-content: center;
-        width: 90%;
-        height: 65vh;
-        margin-left: 45px;
+        width: 100%;
+        height: auto;
+        background-color: yellow;
        
     }
    
     form input{
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
         margin-top: 10px;
         width: 300px;
-        height: 30px;
+        height: 35px;
         border-radius: 3px;
         border: none;
-        font-size: 10px;
-        padding-left: 15px;
-     
+        padding-left: 0;
+        background-color: fuchsia;
     }
     
     textarea{
         width: 300px;
-        height: 30vh;
+        height: 35vh;
         border-radius: 3px;
-        font-size: 12px;
-        padding-left: 5px;
+        /* font-size: 12px; */
+        padding-left: 0;
     }
     
     
@@ -349,8 +385,8 @@
         display: flex;
         align-items: center;
         width: 300px;
-        height: 30px;
-        font-size: 12px;
+        height: 35px;
+        /* font-size: 12px; */
     }
 
 
@@ -362,14 +398,15 @@ footer{
 }
 .footer2{
   visibility: visible;
-  display: grid;
+  display: block;
   width: 100%;
-  height: 70vh;
+  height: auto;
   background-color: #454545;
   justify-content: center;
   align-items: center;
   color: white;
-  font-size: 12px;
+  padding: 10px 0;
+  /* font-size: 12px; */
 }
 .quick-links2 a{
   text-decoration: none;
@@ -410,17 +447,12 @@ footer{
 
 
 /* START HERE MEDIA QUERY FOR THE ABOUT PAGE */
-@media (width < 768px) {
+/* @media (width < 768px) {
 
   #big-box{
       width:100%;
       height: auto;
       color: white;
-      /* background-image: url('./images/churchbuilding.jpg');
-      background-size: contain;
-      background-position:center center;
-      background-repeat: repeat;
-       */
   }
   .opeilu{
     display: flex;
@@ -498,6 +530,6 @@ footer{
 footer .top{
   visibility: visible;
 }
-}
+} */
 
 

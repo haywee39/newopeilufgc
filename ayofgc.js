@@ -88,7 +88,7 @@ function openLightbox(imageSrc) {
 
 
   // &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&
-   // YEAR THEME SCROL IN FROM LEFT 
+   // VIDEO SCROL IN FROM LEFT 
    document.addEventListener("DOMContentLoaded", function () {
     const profiles = document.querySelectorAll(".vid-left");
 
@@ -112,7 +112,7 @@ function openLightbox(imageSrc) {
 });
 
 // ************************************************************
- // MONTH THEME SCROL IN FROM RIGHT 
+ // VIDEO SCROL IN FROM RIGHT 
 document.addEventListener("DOMContentLoaded", function () {
   const profiles = document.querySelectorAll(".vid-ryt");
 
@@ -184,7 +184,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 // &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&77
 
-// YEAR THEME SCROL IN FROM LEFT 
+// TESTIMONY SCROL IN FROM LEFT 
 document.addEventListener("DOMContentLoaded", function () {
   const profiles = document.querySelectorAll(".testy1");
 
@@ -208,7 +208,7 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 // ************************************************************
-// MONTH THEME SCROL IN FROM RIGHT 
+// TESTIMONY SCROL IN FROM RIGHT 
 document.addEventListener("DOMContentLoaded", function () {
 const profiles = document.querySelectorAll(".testy2");
 
@@ -258,6 +258,54 @@ document.addEventListener("DOMContentLoaded", function () {
 // MONTH THEME SCROL IN FROM RIGHT 
 document.addEventListener("DOMContentLoaded", function () {
 const profiles = document.querySelectorAll(".weekActs");
+
+function handleScroll() {
+    profiles.forEach((profile, index) => {
+        const rect = profile.getBoundingClientRect();
+        const windowHeight = window.innerHeight;
+
+        if (rect.top < windowHeight && rect.bottom >= 0) {
+            setTimeout(() => {
+                profile.classList.add("visible");
+            }, index * 150); // Stagger effect by 150ms for each profile
+        } else if (rect.top > windowHeight || rect.bottom < 0) {
+         profile.classList.remove("visible"); // Remove visible class if scrolled out
+        }
+    });
+}
+
+window.addEventListener("scroll", handleScroll);
+handleScroll(); // Run once on load in case items are already in view
+});
+// &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&77
+
+    // YEAR THEME SCROL IN FROM LEFT 
+document.addEventListener("DOMContentLoaded", function () {
+  const profiles = document.querySelectorAll(".us1");
+
+  function handleScroll() {
+      profiles.forEach((profile, index) => {
+          const rect = profile.getBoundingClientRect();
+          const windowHeight = window.innerHeight;
+
+          if (rect.top < windowHeight && rect.bottom >= 0) {
+              setTimeout(() => {
+                  profile.classList.add("visible");
+              }, index * 150); // Stagger effect by 150ms for each profile
+          } else if (rect.top > windowHeight || rect.bottom < 0) {
+           profile.classList.remove("visible"); // Remove visible class if scrolled out
+          }
+      });
+  }
+
+  window.addEventListener("scroll", handleScroll);
+  handleScroll(); // Run once on load in case items are already in view
+});
+
+// ************************************************************
+// MONTH THEME SCROL IN FROM RIGHT 
+document.addEventListener("DOMContentLoaded", function () {
+const profiles = document.querySelectorAll(".us2");
 
 function handleScroll() {
     profiles.forEach((profile, index) => {
