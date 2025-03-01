@@ -408,7 +408,6 @@ nav{
 /* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
 #themes{
     display: flex;
-    /* flex-direction: row; */
     width: 100vw;
     height: auto;
     align-items: center;
@@ -580,7 +579,7 @@ img{
 }
 
 #live-stream .btn:hover{
-    background-color: #454545;
+    background-color: black;
 }
 /* ***************************************** */
 #weekActs{
