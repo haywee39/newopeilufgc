@@ -24,6 +24,10 @@
   margin-bottom: 20vh;
   
 }
+
+.live-button{
+  margin-left: 20px;
+}
     /* ****************************************************************************************** */
   
 #typewriter {
@@ -68,12 +72,6 @@
 
 }
 /* &&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&&& */
-
-  /* .js_date{ */
-    /* font-size: 18px; */
-  /* } */
-  
-  
   
 #play-vid{
     display: flex;
@@ -161,7 +159,7 @@
   height: 100%;
 }
 /* END THE THEME FOR THE YEAR */
-
+/* ************************************* */
 /* MEDIA BEGINS FROM HERE */
 #media{
   width: 100vw;
@@ -191,24 +189,18 @@
     float: left;
     margin-right:1.5rem;
 }
-#pastor-desk .msg{
-  /* font-size: 13px; */
-}
 
 #live-stream{
   width: 100%;
   height: auto;
 }
-#live-stream h1{
-  /* font-size: 20px; */
-}
+
 #live-stream p{
   padding: 10px;
 }
 #live-stream .btn{
   width: 230px;
   height: 40px;
-  /* font-size: 12px; */
 }
 
 #weekActs{
@@ -217,19 +209,7 @@
     height: auto;
 }
 
-#weekActs h1{ 
-    /* font-size: 20px; */
-}
-
-#weekActs h3{
-    /* font-size: 15px; */
-}
-#weekActs h5{
-    /* font-size: 12px; */
-   
-}
 #weekActs p{
-    /* font-size:12px; */
     text-align: center;
 }
 
@@ -298,9 +278,9 @@
 
 /* LOCATION AND MAP  */
 #contact-us{
-        align-items: center;
         display: flex;
         flex-direction: column;
+        align-items: center;
         justify-content: center;
         width: 100vw;
         height: auto;
@@ -313,7 +293,7 @@
 
 }
 .contact-msg p{
-  font-size: 13px;
+  /* font-size: 13px; */
 }
 /* &********************************* */
 .Location-WriteUs{
@@ -332,6 +312,7 @@
         height: 150px;
         margin-bottom: 20px;
         padding-left: 0;
+        margin-left: 0;
         /* background-color: blue; */
     }
 
@@ -350,27 +331,29 @@
         justify-content: center;
         align-items: center;
         margin-top: 10px;
-        width: 300px;
-        height: 35px;
+        width: 400px;
+        height: 40px;
         border-radius: 3px;
-        border: none;
-        padding-left: 0;
+        border: black 1px solid;
+        padding-left: 5px;
         /* background-color: fuchsia; */
     }
     
     textarea{
-        width: 300px;
+        width: 400px;
         height: 35vh;
         border-radius: 3px;
         padding-left: 0;
+        border: black 1px solid;
+        padding-left: 5px;
     }
     
     
     .submit{
         display: flex;
         align-items: center;
-        width: 300px;
-        height: 35px;
+        width: 400px;
+        height: 40px;
     }
 
 
