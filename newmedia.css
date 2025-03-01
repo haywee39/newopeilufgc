@@ -354,7 +354,7 @@
         justify-content: center;
         width: 100%;
         height: auto;
-        background-color: yellow;
+        /* background-color: yellow; */
        
     }
    
@@ -369,14 +369,13 @@
         border-radius: 3px;
         border: none;
         padding-left: 0;
-        background-color: fuchsia;
+        /* background-color: fuchsia; */
     }
     
     textarea{
         width: 300px;
         height: 35vh;
         border-radius: 3px;
-        /* font-size: 12px; */
         padding-left: 0;
     }
     
@@ -386,70 +385,23 @@
         align-items: center;
         width: 300px;
         height: 35px;
-        /* font-size: 12px; */
     }
 
 
 
 
-/* FOOTER2 BEGINS HERE  */
+/* FOOTER BEGINS HERE  */
 footer{
-  display: none;
-  width: 100%;
-  height: auto;
-  margin-bottom: 20px;
-}
-.footer2{
-  visibility: visible;
-  display: block;
-  width: 100%;
-  height: auto;
-  background-color: #454545;
-  justify-content: center;
-  align-items: center;
-  color: white;
-  padding: 10px 0;
-  /* font-size: 12px; */
-}
-/* .quick-links2 a{
-  text-decoration: none;
-  color: white;
-} */
- 
-.follow-us2{
   display: flex;
   flex-direction: column;
+  width: 100%;
+  height: auto;
+  gap: 50px;
 }
 
-
-
-.follow-us2 a{
-  text-decoration: none;
-  color: white;
-}
-
-.address2 a{
-  text-decoration: none;
-  color: white;
-}
-.copyright2 a{
-  text-decoration: none;
-  color: white;
-}
-
-.tag2{
-  text-shadow:5px 5px 3px black;
-  animation:sayo 2s ease 1s infinite;  
-}
-
-@keyframes sayo{
-
-  0%{
-     transform:rotateX(-45deg);
- }
-  50%{
-     transform:rotateY(45deg);
- }
+.follow-us, .address, .copyright{
+   width: 55%;
+   /* background-color: purple; */
 }
 
 

@@ -339,8 +339,26 @@ nav{
     height: auto;
     padding: 0 10px;
     margin-top: 20px;
-    /* background-color: #454545;  */
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: transform 1s ease, opacity 1s ease; 
+     /* background-color: #454545;  */
+   
 }
+.us1.visible {
+    animation: slideIn 1s ease forwards;
+    }
+    @keyframes slideIn {
+    from {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+}
+
 .us2{
     display: flex;
     flex-direction: column;
@@ -352,6 +370,22 @@ nav{
     padding: 0 10px;
     margin-bottom: 15px;
     background-color: red; 
+    transform: translateX(100%);
+    opacity: 0;
+    transition: transform 1s ease, opacity 1s ease;   
+}
+.us2.visible {
+    animation: slideInRight 1s ease forwards;
+    }
+    @keyframes slideInRight {
+    from {
+      transform: translateX(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
 }
 
 .us1 p{
@@ -504,7 +538,6 @@ img{
     align-items: center;
     width: 100vw;
     height: auto;
-   /* background-color: rgb(227, 221, 247); */
     color: white;
 }
 
@@ -575,7 +608,6 @@ img{
     color: white;
 }
 #weekActs p{
-    /* font-weight: light; */
     text-align: center;
     color: white;
 }
@@ -594,7 +626,6 @@ img{
     height: auto;
     align-items: center;
     justify-content: center;
-    /* place-items: center; */
     background-color: black;
     color: white;
 
@@ -613,7 +644,6 @@ img{
 .gallery-item {
     width: 300px;
     height:250px;
-    /* background-color: rgb(227, 221, 247);      */
 }
   
 .gallery-item img {
@@ -848,6 +878,7 @@ textarea{
     text-decoration: none;
     z-index: 1;
     padding-left: 10px;
+    left: 10px;
     bottom: 30px;
     color: red;
 }
@@ -855,20 +886,14 @@ textarea{
 /* STYLING FOR THE FOOTER AREA  */
 
 footer{
-    margin-top: 50px;
     display:flex;
     background-color: #000;  
     width: 100vw;
-    height: 33vh;
+    height: 35vh;
     color: white;
     justify-content: space-around;
+    align-items: center;
     place-items:center;
-    /* font-size:15px;   */
-}
-
-.footer2{
-    visibility: hidden;
-    display: none;
 }
 
 footer a{
@@ -881,47 +906,26 @@ footer a:hover{
 }
 
 
-.quick-links{
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    justify-content: left;
-    width: 15%;
-    margin-left: 40px;
-    /* background-color: red; */
-   
-}
-
-.quick-links a{
-    text-decoration: none;
-    color: white;
-    line-height: 20px;    
-}
-
 
 .follow-us {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: left;
-    width: 15%;
-    margin-left: 40px;
-    /* background-color: blue; */
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    /* background-color: red; */
 }
 
 .follow-us a{
     color: white;
     text-decoration: none;
-    /* line-height: 22px;     */
 }
 .address{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: left;
-    place-items: left;
-    width: 20%;
-    margin-left: 40px;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
     /* background-color: red; */
 }
 
@@ -933,15 +937,15 @@ footer a:hover{
 .copyright{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    justify-content: left;
-    width: 20%;
-    margin-left: 40px;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
     /* background-color: red; */
 }
 .my-icon{
     display: flex;
-    justify-content: flex-start;
+    justify-content: center;
+    align-items: center;
     gap: 40px;
     width: 100%;
     /* background-color: blue; */
@@ -956,7 +960,7 @@ footer a:hover{
 }
 
 .tag{
-   text-shadow:3px 3px 3px red;
+   text-shadow:2px 2px 2px red;
    animation:bayo 2s ease 1s infinite;  
 }
 
@@ -981,7 +985,6 @@ footer a:hover{
 /* STYLING FOR THE ABOUT US PAGE BEGINS HERE  */
 #big-box{
     padding-top: 5vh;
-    /* font-family: helvetica; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -990,7 +993,7 @@ footer a:hover{
     height: 150vh;
     color: white;   
     background: url(./images/churchbuilding.jpg);
-    background-size: cover; /* or contain */
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
      
