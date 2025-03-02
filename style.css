@@ -314,7 +314,7 @@ nav{
 /*End Styling for the marquee Heb 13:8 */
 /* *********************************************** */
 .AboutUs{
-    margin-top: 50px;
+    /* margin-top: 50px; */
     padding-top: 50px;
     display: flex;
     flex-direction: column;
@@ -413,7 +413,7 @@ nav{
     align-items: center;
     justify-content: space-evenly;
     background-color: black;
-    margin-top: 50px;
+    /* margin-top: 50px; */
     padding: 10px 0;
 }
 
@@ -483,11 +483,11 @@ img{
     justify-content: center;
     align-items: center;
     background-color: black;
-    margin-top: 50px;
+    /* margin-top: 50px; */
 }
 #pastor-desk{
     position: relative;
-    margin-top: 50px;
+    /* margin-top: 50px; */
     padding-top: 20px;
     width:70%;
     height: auto;
@@ -531,7 +531,7 @@ img{
 
 /* ***************************** */
 #overalldrop{
-    margin-top: 50px;
+    /* margin-top: 50px; */
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -617,7 +617,7 @@ img{
 /* **************************************************** */
 /* ********************************* */
 #gallery {
-    margin-top: 50px;
+    /* margin-top: 50px; */
     padding-top: 50px;
     display: flex;
     flex-direction: column;
@@ -694,7 +694,7 @@ img{
 /* **************************************************** */
 /* STYLING FOR THE TESTIMOIES SECTION BEGINS HERE  */
 #testimony{
-    margin-top: 50px;
+    /* margin-top: 50px; */
     padding-top: 50px;
     padding-bottom: 50px;
     height: auto;
@@ -767,7 +767,7 @@ img{
 
 /* THE STYLING FOR THE CONTACT US SECTION BEGINS HERE  */
 #contact-us{
-    margin-top: 50px;
+    /* margin-top: 50px; */
     padding-top: 50px;
     width: 100vw;
     height: auto;
@@ -980,97 +980,4 @@ footer a:hover{
 
 
 
-
-/* STYLING FOR THE ABOUT US PAGE BEGINS HERE  */
-#big-box{
-    padding-top: 5vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center; 
-    width:100vw;
-    height: 150vh;
-    color: white;   
-    background: url(./images/churchbuilding.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-     
-}
-
-
-.aboutUs{
-    width: 100%;
-    height: auto;
-    color: white;   
-    background: url(./thisbelieve/cutchurchbuildin.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-attachment: fixed;
-    
-}
-
-.aboutUs h1{
-    padding-top: 50px;
-}
-
-.img-fold{
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: space-evenly;
-}
-
-.img-fold img{
-    width: 55px;
-    height: 55px;
-
-}
-
-.tenets-heading{
-    display: flex;
-    align-items: center;
-    justify-content:center;
-    text-align:center;
-    text-shadow: red 2px 2px 2px;
-    color: white;
-    background: url(./images/plywoodcolorpexels-fwstudio-129731.jpg);
-    width:100%;
-    height: 10vh;
-}
-
-.accordion-flush{
-    text-align: center;
-    width: 60vw;
-    margin-left: 20%;
-   
-}
-
-.accordion-body{
-    background: linear-gradient(
-        45deg,
-        rgba(236, 74, 29, 0.5),
-        rgba(91, 14, 214, 0.5) 100%
-      );
-    color: white;
-    /* font-size: 19px; */
-    text-shadow: black 2px 2px 2px;
-}
-
-.accordion-button.collapsed{
-    color: black;
-    background-color: silver;
-    letter-spacing: 2px;
-    word-spacing: 6px;   
-}
-
-.accordion-button.collapsed:hover{
-    background: linear-gradient(
-        45deg,
-        rgba(91, 14, 214, 0.5),
-        rgba(29, 236, 197, 0.5)
-         100%
-      );
-}
 
