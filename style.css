@@ -483,11 +483,9 @@ img{
     justify-content: center;
     align-items: center;
     background-color: black;
-    /* margin-top: 50px; */
 }
 #pastor-desk{
     position: relative;
-    /* margin-top: 50px; */
     padding-top: 20px;
     width:70%;
     height: auto;
@@ -531,7 +529,6 @@ img{
 
 /* ***************************** */
 #overalldrop{
-    /* margin-top: 50px; */
     display: flex;
     justify-content: space-evenly;
     align-items: center;
@@ -617,7 +614,6 @@ img{
 /* **************************************************** */
 /* ********************************* */
 #gallery {
-    /* margin-top: 50px; */
     padding-top: 50px;
     display: flex;
     flex-direction: column;
@@ -694,7 +690,6 @@ img{
 /* **************************************************** */
 /* STYLING FOR THE TESTIMOIES SECTION BEGINS HERE  */
 #testimony{
-    /* margin-top: 50px; */
     padding-top: 50px;
     padding-bottom: 50px;
     height: auto;
@@ -767,7 +762,6 @@ img{
 
 /* THE STYLING FOR THE CONTACT US SECTION BEGINS HERE  */
 #contact-us{
-    /* margin-top: 50px; */
     padding-top: 50px;
     width: 100vw;
     height: auto;
