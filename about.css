@@ -5,6 +5,7 @@
     box-sizing:border-box; 
     list-style: none; 
     font-family: 'poppins', sans-serif;  
+    /* font-family: montserrat; */
     
  }
  body,  html{
@@ -27,7 +28,7 @@ nav{
     width: 100vw;
     height: 25vh;
     color: white;
-    background: black !important;
+    background: grey !important;
 }
 
 
@@ -47,7 +48,7 @@ nav{
 }
 
 .dropdown-menu{
-    background:black !important; 
+    background: grey !important; 
 }
 .dropdown-menu li a:hover{
     background:red !important;
@@ -143,25 +144,11 @@ nav{
     height: auto;
     padding: 0 10px;
     margin-top: 20px;
-    /* transform: translateX(-100%); */
-    /* opacity: 0; */
-    /* transition: transform 1s ease, opacity 1s ease;  */
-     /* background-color: #454545;  */
-   
+    text-shadow: 1px 1px 1px grey;
 }
-/* .us1.visible {
-    animation: slideIn 1s ease forwards;
-    }
-    @keyframes slideIn {
-    from {
-      transform: translateX(-100%);
-      opacity: 0;
-    }
-    to {
-      transform: translateX(0);
-      opacity: 1;
-    }
-} */
+.us1 p{
+    font-size: 20px;
+}
 
 .us2{
     display: flex;
@@ -174,26 +161,12 @@ nav{
     padding: 0 10px;
     margin-bottom: 15px;
     background-color: red; 
-    /* transform: translateX(100%); */
-    /* opacity: 0; */
-    /* transition: transform 1s ease, opacity 1s ease;    */
+    text-shadow: 1px 1px 1px grey;
 }
-/* .us2.visible {
-    animation: slideInRight 1s ease forwards;
-    }
-    @keyframes slideInRight {
-    from {
-      transform: translateX(100%);
-      opacity: 0;
-    }
-    to {
-      transform: translateX(0);
-      opacity: 1;
-    }
-} */
 
 .usA p{
-    text-shadow: 1px 1px black;
+    font-size: 20px;
+    text-shadow: 1px 1px 1px grey;
 }
 
 .four-fold{
@@ -201,6 +174,9 @@ nav{
     height: auto;
     display: flex;
     justify-content: space-evenly;
+}
+.four-fold p{
+    font-size: 20px;
 }
 
 .four-fold img{
@@ -217,7 +193,7 @@ nav{
     justify-content:center;
     text-align:center;
     margin-bottom: 20px;
-    text-shadow: black 2px 2px 2px;
+    text-shadow: grey 2px 2px 2px;
     color: white;
     background-color: grey;
     /* background: url(./images/plywoodcolorpexels-fwstudio-129731.jpg); */
@@ -232,7 +208,7 @@ nav{
     padding: 20px 0;
     width: 100vw;
     height: auto;
-    background-color: black; 
+    background-color: grey; 
 }
 
 .accordion-flush{
@@ -247,12 +223,12 @@ nav{
         rgba(91, 14, 214, 0.5) 100%
       );
     color: white;
-    text-shadow: black 2px 2px 2px;
+    text-shadow: grey 2px 2px 2px;
 }
 
 .accordion-button.collapsed{
     color: white;
-    text-shadow: black 2px 2px 2px;
+    text-shadow: grey 2px 2px 2px;
     background-color: grey;
     letter-spacing: 2px;
     word-spacing: 6px;   
@@ -282,6 +258,7 @@ nav{
 }
 #contact-us h1{
     color: white;
+    text-shadow: 1px 1px 1px grey;
 }
 
 .contact-msg{
@@ -299,9 +276,11 @@ nav{
 }
 .contact-msg h5{
     color: white;
+    font-size: 20px;
 }
 .contact-msg p{
-    font-weight: normal;
+    /* font-weight: 20px; */
+    font-size: 20px;
     color: white;  
 }
 
@@ -343,7 +322,7 @@ form input{
     height: 40px;
     border-radius: 6px;
     border: none;
-    font-size: 15px;
+    font-size: 20px;
     padding-left: 15px;
  
 }
@@ -352,7 +331,7 @@ textarea{
     width: 520px;
     height: 40vh;
     border-radius: 10px;
-    font-size: 15px;
+    font-size: 20px;
     padding-left: 15px;
  
 }
